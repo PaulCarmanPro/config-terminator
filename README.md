@@ -8,7 +8,9 @@ Therefore, all typical control-key assignments (and all others) are assigned to 
 Creating a new standard:
 - Terminal Alt keys control the terminal itself.
 - Terminal Ctrl keys are passed to the program using the terminal (see ncurses and slang).
+
 The following keys are not part of preferences, but remain trapped (not passed on):
+
 - Control-C (Cancel).
 - Control-z (Suspend).
 - Control-q (resume terminal).

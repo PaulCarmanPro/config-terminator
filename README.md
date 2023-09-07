@@ -6,5 +6,5 @@ Programs which execute in the terminal do not use menus or respond to the press 
 
 Therefore, all typical control-key assignments (and all others) are assigned to alt-key.
 Creating a new standard:
-- Alt in the termial controls the terminal.
-- Ctrl in the terminal are passed to the program using the terminal (see ncurses and slang).
+- Termal Alt keys control the terminal.
+- Terminal Ctrl keys are passed to the program using the terminal (see ncurses and slang).

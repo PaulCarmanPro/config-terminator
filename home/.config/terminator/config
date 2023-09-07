@@ -1,0 +1,99 @@
+[global_config]
+  window_state = maximise
+  borderless = True
+  tab_position = bottom
+  inactive_color_offset = 0.9
+  suppress_multiple_term_dialog = True
+  always_split_with_profile = True
+  clear_select_on_copy = True
+  case_sensitive = False
+  invert_search = True
+  title_at_bottom = True
+[keybindings]
+  zoom_in = <Alt>equal
+  zoom_out = <Alt>minus
+  zoom_normal = ""
+  zoom_in_all = <Alt>plus
+  zoom_out_all = <Alt>underscore
+  new_tab = <Alt>t
+  cycle_next = <Alt>o
+  cycle_prev = ""
+  go_next = ""
+  go_prev = ""
+  go_up = ""
+  go_down = ""
+  go_left = ""
+  go_right = ""
+  rotate_cw = ""
+  rotate_ccw = ""
+  split_auto = ""
+  split_horiz = <Alt>2
+  split_vert = <Alt>3
+  close_term = <Alt>q
+  copy = <Alt>c
+  paste = <Alt>v
+  toggle_scrollbar = ""
+  search = <Alt>f
+  page_up = <Shift><Alt>Up
+  page_down = <Shift><Alt>Down
+  line_up = <Alt>Up
+  line_down = <Alt>Down
+  close_window = ""
+  resize_up = <Alt>6
+  resize_down = <Alt>asciicircum
+  resize_left = <Alt>7
+  resize_right = <Alt>ampersand
+  move_tab_right = <Shift><Alt>Page_Down
+  move_tab_left = <Shift><Alt>Page_Up
+  toggle_zoom = ""
+  scaled_zoom = ""
+  next_tab = <Alt>Page_Down
+  prev_tab = <Alt>Page_Up
+  full_screen = ""
+  reset = <Alt>r
+  reset_clear = <Alt>l
+  hide_window = ""
+  group_all = ""
+  ungroup_all = ""
+  ungroup_win = ""
+  group_tab = ""
+  ungroup_tab = ""
+  new_window = ""
+  new_terminator = ""
+  insert_number = ""
+  insert_padded = ""
+  edit_window_title = ""
+  edit_tab_title = ""
+  edit_terminal_title = ""
+  layout_launcher = ""
+  preferences_keybindings = <Alt>k
+  help = ""
+[profiles]
+  [[default]]
+    background_darkness = 0.42
+    font = DejaVu Sans Mono 16
+    foreground_color = "#2ec27e"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 2000
+    scrollback_infinite = True
+    use_system_font = False
+    copy_on_selection = True
+  [[amber]]
+    background_type = transparent
+    font = Liberation Mono 12
+    foreground_color = "#f5c211"
+    show_titlebar = False
+    scrollback_infinite = True
+    use_system_font = False
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
